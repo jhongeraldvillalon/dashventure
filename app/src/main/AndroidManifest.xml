@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DashVenture"
+        tools:targetApi="31">
+        <activity
+            android:name=".FlashLightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TextToSpeech"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/SplashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Glory"
+            android:exported="false" />
+        <activity
+            android:name=".Conclusion"
+            android:exported="false" />
+        <activity
+            android:name=".Victory"
+            android:exported="false" />
+        <activity
+            android:name=".FinalConfrontation"
+            android:exported="false" />
+        <activity
+            android:name=".TrialOfFire"
+            android:exported="false" />
+        <activity
+            android:name=".DemonKingLair"
+            android:exported="false" />
+        <activity
+            android:name=".DeadEnd"
+            android:exported="false" />
+        <activity
+            android:name=".HiddenTrap"
+            android:exported="false" />
+        <activity
+            android:name=".StolenArtifact"
+            android:exported="false" />
+        <activity
+            android:name=".AdventurerGuild"
+            android:exported="false" />
+        <activity
+            android:name=".GameScreen"
+            android:exported="false" />
+        <activity
+            android:name=".TitleScreen"
+            android:exported="false">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+    </application>
+
+</manifest>
